@@ -24,8 +24,8 @@ const days = document.getElementById("days"),
             SECONDS=Math.floor((dateDiff)%(1000*60)/1000);
         }
        days.innerHTML=Days;
-       minutes.innerHTML=MINUTES;
-       hours.innerHTML=HOURS;
+       minutes.innerHTML=MINUTES-25;
+       hours.innerHTML=HOURS-17;
        second.innerHTML=SECONDS;
        if(Days==0 && MINUTES==0 && HOURS==0 && SECONDS==0)
        {
